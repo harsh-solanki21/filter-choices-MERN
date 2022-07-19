@@ -1,0 +1,53 @@
+.form {
+  border-bottom: 1px solid gray;
+  background-color: #81c0ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.inner-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form input[type='text'],
+.form input[type='date'],
+select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid pink;
+  padding: 8px;
+  margin: 0px;
+  outline: none;
+  border-radius: 8px;
+}
+
+.form input[type='text']:focus,
+.form input[type='number']:focus,
+.form select:focus {
+  -moz-box-shadow: 0 0 8px #88d5e9;
+  -webkit-box-shadow: 0 0 8px #88d5e9;
+  box-shadow: 0 0 8px #88d5e9;
+  border: 1px solid dodgerblue;
+}
+
+.form input[type='submit'] {
+  background: rgb(243, 112, 133);
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 10px;
+  border: 2px solid red;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.form input[type='submit']:hover {
+  background: red;
+  box-shadow: none;
+}

@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5px;
+  background-color: aliceblue;
+}
+
+@import url('../src/styles/form.css');
+
+@import url('../src/styles/filter.css');
